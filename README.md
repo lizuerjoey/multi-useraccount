@@ -30,4 +30,4 @@ Roles are assigned with custom permissions upon creation.
 Unable to add members who are admins or members in other organisation, i.e. the email must not exist in the database
 
 ## Session
-Upon login, the user email is save in session and remove upon logout.
+Upon login, the user email is saved in session and remove upon logout.
