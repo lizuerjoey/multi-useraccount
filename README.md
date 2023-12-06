@@ -20,6 +20,8 @@ Roles are assigned with custom permissions upon creation.
 | Member | Unable to add members into the organisation | Add button should be disabled when login |
 
 ### Dummy accounts to test
+*They are all part of the same organisation - sianorg*
+
 | Email | Password | Role |
 | :---:   | :---: | :---: |
 | sian@gmail.com | P@ssword123 | Admin
@@ -27,7 +29,7 @@ Roles are assigned with custom permissions upon creation.
 | sianchild2@gmail.com | P@ssword123 | Member |
 
 ## Add members into an organisation
-Unable to add members who are admins or members in other organisation, i.e. the email must not exist in the database
+Unable to add members who are admins or members in other organisation, i.e. the email must not exist in the database.
 
 ## Session
 Upon login, the user email is saved in session and remove upon logout.
